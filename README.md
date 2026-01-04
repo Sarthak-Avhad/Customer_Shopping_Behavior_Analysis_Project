@@ -3,6 +3,8 @@
 A complete end-to-end Data Analytics project that studies customer shopping patterns across demographics, product categories, and purchase channels to help a retail company improve revenue, customer engagement, and loyalty.
 The project integrates Python for data preparation, SQL for business analysis, and Power BI for visualization.
 
+
+
 📌 Business Problem
 
 A leading retail company observed changing purchasing trends across customer segments and sales channels.
@@ -11,6 +13,8 @@ They want to understand:
 How can consumer shopping data be leveraged to identify trends, improve customer engagement, and optimize marketing and product strategies? 
 
 Business Problem Document
+
+
 
 🎯 Project Objectives
 
@@ -22,63 +26,7 @@ Analyze discount dependency and subscription patterns.
 
 Provide business recommendations backed by data insights.
 
-📂 Repository Structure
-📁 Customer-Shopping-Behavior-Analysis
-│
-├── 📁 python/
-│   └── data_preprocessing.ipynb
-│
-├── 📁 sql/
-│   └── customer_analysis_queries.sql
-│
-├── 📁 powerbi/
-│   └── shopping_behavior_dashboard.pbix
-│
-├── 📁 reports/
-│   ├── Business Problem Document.pdf
-│   └── Customer Shopping Behavior Analysis.pdf
-│
-└── README.md
 
-📊 Dataset Summary
-
-Rows: 3,900
-
-Columns: 18
-
-Key Features:
-
-Customer Demographics – Age, Gender, Location, Subscription Status
-
-Purchase Details – Item Purchased, Category, Amount, Season, Size, Color
-
-Shopping Behavior – Discounts, Reviews, Shipping Type, Purchase Frequency
-
-Missing Values: 37 missing values in Review Rating column 
-
-Customer Shopping Behavior Anal…
-
-🐍 Data Preparation & Feature Engineering (Python)
-
-Loaded dataset using pandas.
-
-Performed initial exploration using .info() and .describe().
-
-Handled missing values in review_rating using median rating per category.
-
-Standardized column names using snake_case.
-
-Created new features:
-
-age_group
-
-purchase_frequency_days
-
-Removed redundant column promo_code_used.
-
-Loaded cleaned data into PostgreSQL for SQL analysis. 
-
-Customer Shopping Behavior Anal…
 
 🗄️ Data Analysis (SQL – PostgreSQL)
 
